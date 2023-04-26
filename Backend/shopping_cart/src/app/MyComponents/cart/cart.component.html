@@ -1,0 +1,56 @@
+<br>
+<br>
+<head>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+  </head>
+<div class="card">
+  <div class="row">
+      <div class="col-md-8 cart">
+          <div class="cart">
+              <div class="row">
+                  <div class="col"><h4><b>Cart</b></h4></div>
+                  <div class="col align-self-center text-right text-muted"></div>
+              </div>
+          </div>
+
+          <div class="row border-top border-bottom">
+            <div class="row main align-items-center">
+                <div *ngIf="getCartDetails">
+                    <table>
+                        <tr>
+                            <th>Product</th>
+                            <th>Cost</th>
+                            <th>Quantity</th>
+                            <th>Total Cost</th>
+                            <th>Actions</th>
+                        </tr>
+                        <tr *ngFor="let getCartDetail of getCartDetails">
+                            <td><b>{{getCartDetail.description}}</b></td>
+                            <td>₹{{getCartDetail.cost}}</td>
+                            <td>
+                                <div class="content">
+                                    <button type="button" class="btn" (click)="incQnt(getCartDetail)">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                    <span>{{getCartDetail.quantity}}</span>
+                                    <button type="button" class="btn" (click)="decQnt(getCartDetail)">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                ₹ {{getCartDetail.quantity * getCartDetail.cost | number}}
+                            </td>
+                            <td><button (click)="singleDelete(getCartDetail.id)" >Delete</button></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button  class="btn btn-dark" (click)='onCheckout()'  type="button">CheckOut</button>
+                    </div>
+                </div>
+            </div>
+        </div>    
+          

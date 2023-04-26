@@ -1,0 +1,85 @@
+{
+  "Product" :[
+    {
+        "id":1,
+        "description":"FiberGalss Handle Claw Hammer-0.23Kg",
+        "cost": 1200,
+        "imageurl":"https://m.media-amazon.com/images/I/71K-lI4oFWL._SY450_.jpg"
+  
+      },
+      {
+        "id":2,
+        "description":"3lb Sledge Hammer with Wooden Handle - 2.6kg",
+        "cost": 500,
+        "imageurl":"https://m.media-amazon.com/images/I/61sRe4nAlXL._SX450_.jpg"
+  
+      },
+      {
+        "id":3,
+        "description":"Ball Peen Hammer FiberGlass Handle-5kg",
+        "cost": 1100,
+        "imageurl":"https://m.media-amazon.com/images/I/718-JKa6VVL._SY450_.jpg"
+  
+      },
+      {
+        "id":4,
+        "description":"Claw Hammer with Steel Shaft for wood work - 220gm",
+        "cost": 250,
+        "imageurl":"https://m.media-amazon.com/images/I/61T0LZkXchL._SY450_.jpg"
+  
+      },
+      {
+        "id":5,
+        "description":"Ball Peen Hammer with Wooden Handle-250gm",
+        "cost": 350,
+        "imageurl":"https://m.media-amazon.com/images/I/51wIbn2HUtL._SX450_.jpg"
+  
+      },
+      {
+        "id":6,
+        "description":"Claw Hammer Steel Shaft",
+        "cost": 250,
+        "imageurl":"https://m.media-amazon.com/images/I/51MMKCxPj5L._SX466_.jpg"
+  
+      },
+      {
+        "id":7,
+        "description":"Heavy Duty Sledge Hammer with Fiber Handle",
+        "cost": 500,
+        "imageurl":"https://m.media-amazon.com/images/I/31hhMxfQ2+L.jpg"
+  
+      },
+      {
+        "id":8,
+        "description":"Heavy Duty Small Hammer Stubby Mini",
+        "cost": 400,
+        "imageurl":"https://m.media-amazon.com/images/I/519lS5H1EML._SY450_.jpg"
+  
+      },
+      {
+        "id":9,
+        "description":"Machinist Hammer 5G Fiberglass Handle-200gm",
+        "cost": 250,
+        "imageurl":"https://m.media-amazon.com/images/I/611AHU0PomL._SX466_.jpg"
+  
+      }
+  ],
+  
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

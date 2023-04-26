@@ -1,0 +1,17 @@
+
+
+.row{
+    background-color: rgb(238, 238, 238);
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+    border-radius: 30px;
+}
+
+.col-md-4{
+    width:9cm;
+    margin-left: 2cm;
+}
